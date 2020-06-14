@@ -1,0 +1,47 @@
+digraph unix {
+	node [color=lightblue2 style=filled]
+	size="6,6"
+	Mo
+	10 [label=o]
+	Mo -> 10
+	11 [label=i]
+	Mo -> 11
+	12 [label=a]
+	Mo -> 12
+	13 [label=h]
+	Mo -> 13
+	14 [label=u]
+	Mo -> 14
+	20 [label=i]
+	12 -> 20
+	21 [label=h]
+	12 -> 21
+	22 [label=u]
+	12 -> 22
+	23 [label=y]
+	12 -> 23
+	24 [label=c]
+	12 -> 24
+	30 [label=d]
+	22 -> 30
+	31 [label=n]
+	22 -> 31
+	32 [label=r]
+	22 -> 32
+	33 [label=s]
+	22 -> 33
+	34 [label=EOF]
+	22 -> 34
+	40 [label=d]
+	32 -> 40
+	41 [label=i]
+	32 -> 41
+	42 [label=EOF]
+	32 -> 42
+	43 [label=e]
+	32 -> 43
+	44 [label=s]
+	32 -> 44
+	Moaur
+	42 -> Moaur
+}
