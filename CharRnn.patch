@@ -1,0 +1,10 @@
+--- C:\Users\ÁõÍş\Untitled Folder 1\model.py
++++ C:\Users\ÁõÍş\Untitled Folder 1\model.py
+@@ -4,6 +4,7 @@
+         self.hidden_dim = hidden_dim
+         self.embeddings = nn.Embedding(vocab_size, embedding_dim)
+         self.lstm = nn.LSTM(embedding_dim, self.hidden_dim)
++
+         self.linear1 = nn.Linear(self.hidden_dim, vocab_size)
+         self.dropout = nn.Dropout(0.3)
+         self.softmax = nn.LogSoftmax()
